@@ -1,0 +1,20 @@
+header{
+  display: flex;
+  align-items: center;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 40px:
+  padding-right: 40px;
+  border-bottom: 1px solid black;
+}
+.banner{
+  display: flex;
+  flex-grow: 1;
+  padding-right: 40px;
+}
+.banner h1{
+  display: inline-block;
+  color: MediumAquamarine;
+  padding-left: 10px;
+}
