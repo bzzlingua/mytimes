@@ -104,6 +104,7 @@ div {
 }
 footer{
   display: flex;
+  flex-direction: column;
   background-color: MediumAquamarine;
   margin: auto;
   font-family: Verdana;
@@ -113,16 +114,18 @@ footer{
   align-items: center;
   justify-content: center;
 }
-footer p{
-  display: flex;
+.footer.info{
+  display: block;
+}
+.footer.info p{
+  display: inline-block;
   font-family: Georgia;
   font-size: 16px;
   font-weight: bold;
   color: white;
 }
-nav {
-  align-items: center;
-  padding: 25px;
+.footer.info nav{
+  display: inline-block;
 }
 .copyright p{
   font-family: Verdana;
