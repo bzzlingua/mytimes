@@ -22,7 +22,6 @@ nav {
   padding: 25px;
 }
 div {
-  border:1px solid black;
   padding: 10px;
 }
 .main.container{
@@ -31,8 +30,14 @@ div {
 }
 .column.large{
     width: 630px;
-  border: 1px solid black;
-  background-color: blue;
+}
+.title.main{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  height: 300px;
 }
 .title{
   font-family: Georgia;
@@ -43,6 +48,7 @@ div {
   height: 300px;
 }
 #main{
+  background-image: url(../images/img-story-main.png);
 }
 .content{
   font-family: Georgia;
@@ -51,17 +57,30 @@ div {
 }
 .subcolumn.stories{
   display: flex;
+  padding: none;
+}
+.subcolumn.orca{
+  display: column;
   padding: 0;
+}
+#fall{
+  background-image: url(../images/img-story-2.png);
+}
+.subcolumn.burger{
+  display: column;
+  padding: 0;
+}
+#camera{
+  background-image: url(../images/img-story-3.png);
 }
 .column.medium{
   width: 300px;
-  border: 1px solid black;
-  background-color: red;
+}
+#cat{
+  background-image: url(../images/img-story-1.png);
 }
 .column.small{
   width: 240px;
-  border: 1px solid black;
-  background-color: orange;
 }
 .news-bites{
     display: block;
@@ -82,4 +101,31 @@ div {
 .news-bites span{
   display: block;
   margin-bottom: 10px;
+}
+footer{
+  display: flex;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  width: 100%;
+  height: 325px;
+  align-items: center;
+  justify-content: center;
+}
+footer p{
+  display: flex;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+nav {
+  align-items: center;
+  padding: 25px;
+}
+.copyright p{
+  font-family: Verdana;
+  color: black;
+  font-size: 12px;
 }
